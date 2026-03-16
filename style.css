@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#FFCDD2;
+  padding: 1em;
+  margin: 0;
+}
+
+h1{
+  font-family:"Playfair Display", sans-serif;
+   font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.Introduction to article{
+   display: block;
+  text-align: center;
+}
+
+ .Hydrangea-img {
+  width: 300px;
+  height: 275px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family:"Playfair Display", sans-serif;
+   font-size: 2.5rem;
+  font-weight: 285;
+  line-height: 1.5;
+}
+.Paragraph h2 {
+  text-align:left;
+  margin-bottom:1rem;
+  margin-top:0.10rem;
+  margin-left: 25rem;
+  margin-right: 0rem;
+  font-size: 1.5rem;
+}
+.Paragraph p {
+  margin-bottom:2rem;
+  margin-top:0rem;
+  margin-left: 25rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+ul{
+ font-family: font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-bottom: 0.5em;
+  line-height: 1.5; 
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ @media (min-width: 700px) {
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 2rem;
+    text-align: left;
+   }
+   
+   .Hydrangea-img {
+  width: 300px;
+  height: 275px;
+  margin-bottom: 1rem;
+}
+   
+   @media (min-width: 1000px) {
+  body {
+    padding: 2rem 3rem;
+  }
